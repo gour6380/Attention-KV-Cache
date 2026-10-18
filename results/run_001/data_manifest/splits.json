@@ -1,0 +1,55 @@
+{
+  "directory": "${PROJECT_ROOT}/data/splits/a139db1d553f91c35b3b91343a74567b2e0887b08e03aa0b1cf31c82611a2e12",
+  "manifest": {
+    "counts": {
+      "duplicate_train": 320241,
+      "duplicate_validation": 0,
+      "eligible_unique_train": 1792647,
+      "empty_train": 230,
+      "empty_validation": 0,
+      "selected_train": 250000,
+      "source_train": 2119719,
+      "source_validation": 21990,
+      "test": 10995,
+      "train_heldout_overlap": 6601,
+      "unselected_unique_train": 1542647,
+      "validation": 10995
+    },
+    "exclusions": {
+      "entries": 1869719,
+      "file": "exclusions.jsonl"
+    },
+    "files": {
+      "exclusions.jsonl": "9c5e6f43ec3cf749cee086b0679f48f6c0ad7658705b718e29f743dc3ae2c146",
+      "test.jsonl": "5bd0b2bc5c336a8a00f7d5506257d192ef015cbbd5847db0e8cc2bbf4a1496a0",
+      "train.jsonl": "7c5c9a624c4f4dd47ab3fec12a9b3a93daf19bdf8221c134d0595d926f1ec785",
+      "validation.jsonl": "dde77833d6739e334608ae89bfd4891fcb110263e558a425a19658210066a55d"
+    },
+    "heldout_partition": "sort unique hashes; first floor(N/2) validation, remainder test",
+    "identity": {
+      "protocol": "tinystories-nfc-exact-dedup-v1",
+      "seed": 2027,
+      "source_manifest_sha256": "b8dc02b6a6ece2194bf82940614f63adb1b417059eec8172b5b735ae556c5f8b",
+      "train_stories": 250000
+    },
+    "limitations": "Exact deduplication does not detect near-duplicate text.",
+    "normalization": "Unicode NFC; CRLF/CR to LF; strip leading/trailing whitespace",
+    "selection": "lowest SHA256(seed:normalized-content-sha256), ties broken by content hash",
+    "splits": {
+      "test": {
+        "file": "test.jsonl",
+        "stories": 10995
+      },
+      "train": {
+        "file": "train.jsonl",
+        "stories": 250000
+      },
+      "validation": {
+        "file": "validation.jsonl",
+        "stories": 10995
+      }
+    },
+    "test_label": "derived from the official validation split"
+  },
+  "manifest_sha256": "be3f09f1174a3d9833b4a982e136c11b4e1f47edafc2783fd8975d6a9cbda12c"
+}

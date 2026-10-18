@@ -1,0 +1,39 @@
+{
+  "actual_workload_endpoint": {
+    "atol": 1e-05,
+    "batch_size": 1,
+    "comparison": "last logits after every forced append versus full-prefix endpoint",
+    "forced_append_steps": 128,
+    "max_absolute_logit_error": 8.58306884765625e-06,
+    "passed": true,
+    "prompt_tokens": 2048,
+    "rtol": 0.0001,
+    "tokens": 2176
+  },
+  "representative_full_token_chunk_paths": {
+    "atol": 1e-05,
+    "batch_size": 1,
+    "cache_allocated_bytes": 73728,
+    "chunk_lengths": [
+      10,
+      10,
+      10,
+      2
+    ],
+    "device": "mps:0",
+    "full_vs_chunk": {
+      "max_absolute_error": 1.621246337890625e-05
+    },
+    "full_vs_last_only": {
+      "max_absolute_error": 6.198883056640625e-06
+    },
+    "full_vs_token": {
+      "max_absolute_error": 1.621246337890625e-05
+    },
+    "kv_heads": 1,
+    "passed": true,
+    "prefill_tokens": 16,
+    "rtol": 0.0001,
+    "tokens": 32
+  }
+}

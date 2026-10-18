@@ -1,0 +1,48 @@
+{
+  "append_tokens": "fixed held-out values; EOS does not stop or shorten workloads",
+  "backend": "compact_grouped_bmm_explicit_scores",
+  "before_model_memory_snapshot": {
+    "measurement": "instantaneous snapshot, not an exact peak; unified-memory categories overlap",
+    "mps_driver_bytes": 1703936,
+    "mps_tensor_bytes": 0,
+    "process_rss_bytes": 431882240,
+    "system_available_bytes": 10756882432,
+    "system_swap_used_bytes": 3806593024
+  },
+  "benchmark_config": {
+    "batch_sizes": [
+      1,
+      4
+    ],
+    "decode_steps": 128,
+    "measured_trials": 20,
+    "prompt_lengths": [
+      128,
+      256,
+      512,
+      1024,
+      2048
+    ],
+    "warmup_trials": 5
+  },
+  "cache_allocation_timed": false,
+  "checkpoint_kind": "final",
+  "checkpoint_sha256": "1266c5fe770d878ce6955fc878521b2d9b27e647017112e68c667bf2b8cc4493",
+  "device": "mps",
+  "fixtures_sha256": "1d7bf304169d0bb7598483fb09f1a2fda1968c0e8d79d5e2e75d7b5884739126",
+  "input_transfer_timed": false,
+  "lengths_beyond_training": "systems-only; no long-context quality claim",
+  "loaded_model_memory_snapshot": {
+    "measurement": "instantaneous snapshot, not an exact peak; unified-memory categories overlap",
+    "mps_driver_bytes": 1092222976,
+    "mps_tensor_bytes": 54480384,
+    "process_rss_bytes": 561266688,
+    "system_available_bytes": 9601630208,
+    "system_swap_used_bytes": 3806593024
+  },
+  "memory_measurement": "Snapshots only; RSS, tensor allocation, and driver allocation are distinct, not exact peaks",
+  "mode_order": "cached first on even trials, uncached first on odd trials",
+  "precision": "float32",
+  "quantile_unit": "trial, not individual-token tail latency",
+  "variant": "gqa"
+}

@@ -1,0 +1,8 @@
+{
+  "fit_split": "train",
+  "sha256": "a1761dcbc0c7e40eeb539cde5aaf40f6ef11e5039c8790571df0aeb5372ed7c5",
+  "smoothing": "add_one",
+  "token_manifest_sha256": "993ead9059c284a7347258aa6cafc9fa195fe09c7b2761752e4fcb4cea888dc4",
+  "training_predicted_tokens": 54879232,
+  "vocab_size": 8192
+}

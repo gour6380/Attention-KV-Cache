@@ -1,0 +1,32 @@
+{
+  "data_identity": {
+    "source.json": "2ae5c03241f73645481b2974d52988e9bdf0fa161789783f46a3012d28c4b3ef",
+    "source_receipt.json": "2ae5c03241f73645481b2974d52988e9bdf0fa161789783f46a3012d28c4b3ef",
+    "splits.json": "0814d3d42a47de3f84bb33b4cd612dd2262d540254ad100054392b7a2ba94d9a",
+    "tokenizer.json": "3858d983dff1582de27b1c78c1400548d7eb54e2aa29217bf306ab2258e82c6b",
+    "tokens.json": "ab0dfad493e264ce86b9f7eda69e00e2396095a00335287f82ec2e155fce895c"
+  },
+  "identity": {
+    "config": "d2c73123277c40765407c0639eadee4c8119fbb183e677ed13fbb21f853e2df5",
+    "environment": "848c8ee1ebedf04e29385547596bc1194b926e2e134b759979f38d35e73e32a9",
+    "source": "136a46465a97fb525a50e318a9fc3cd055328b920e995805961ede7d6f4f6a2c"
+  },
+  "policy": "final_after_equal_fixed_epochs",
+  "variants": {
+    "gqa": {
+      "path": "models/gqa/final.pt",
+      "sha256": "1266c5fe770d878ce6955fc878521b2d9b27e647017112e68c667bf2b8cc4493",
+      "tokens_seen": 164637696
+    },
+    "mha": {
+      "path": "models/mha/final.pt",
+      "sha256": "73b17ae13844a61d62f6418a7d75ac7fb772882a7e76c7d25b4b8691fcdaddd6",
+      "tokens_seen": 164637696
+    },
+    "mqa": {
+      "path": "models/mqa/final.pt",
+      "sha256": "9cdc2028264f67a7fef1414616ea47dbb016119cbfa4520a0e3c9996b174dce6",
+      "tokens_seen": 164637696
+    }
+  }
+}

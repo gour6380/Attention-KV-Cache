@@ -1,0 +1,13 @@
+{
+  "baseline_sha256": "a1761dcbc0c7e40eeb539cde5aaf40f6ef11e5039c8790571df0aeb5372ed7c5",
+  "nll": 5.957617381451848,
+  "perplexity": 386.6876964994175,
+  "perplexity_overflow": false,
+  "predicted_tokens": 2354442,
+  "split": "validation",
+  "split_origin": "derived from the official validation split",
+  "token_manifest_sha256": "993ead9059c284a7347258aa6cafc9fa195fe09c7b2761752e4fcb4cea888dc4",
+  "total_nll": 14026864.582820252,
+  "variant": "unigram",
+  "windows": 2300
+}

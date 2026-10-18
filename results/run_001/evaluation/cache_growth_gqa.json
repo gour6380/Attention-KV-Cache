@@ -1,0 +1,86 @@
+[
+  {
+    "allocated_bytes": 55296,
+    "capacity": 12,
+    "kv_heads": 2,
+    "logical_bytes": 4608,
+    "tokens": 1
+  },
+  {
+    "allocated_bytes": 55296,
+    "capacity": 12,
+    "kv_heads": 2,
+    "logical_bytes": 9216,
+    "tokens": 2
+  },
+  {
+    "allocated_bytes": 55296,
+    "capacity": 12,
+    "kv_heads": 2,
+    "logical_bytes": 13824,
+    "tokens": 3
+  },
+  {
+    "allocated_bytes": 55296,
+    "capacity": 12,
+    "kv_heads": 2,
+    "logical_bytes": 18432,
+    "tokens": 4
+  },
+  {
+    "allocated_bytes": 55296,
+    "capacity": 12,
+    "kv_heads": 2,
+    "logical_bytes": 23040,
+    "tokens": 5
+  },
+  {
+    "allocated_bytes": 55296,
+    "capacity": 12,
+    "kv_heads": 2,
+    "logical_bytes": 27648,
+    "tokens": 6
+  },
+  {
+    "allocated_bytes": 55296,
+    "capacity": 12,
+    "kv_heads": 2,
+    "logical_bytes": 32256,
+    "tokens": 7
+  },
+  {
+    "allocated_bytes": 55296,
+    "capacity": 12,
+    "kv_heads": 2,
+    "logical_bytes": 36864,
+    "tokens": 8
+  },
+  {
+    "allocated_bytes": 55296,
+    "capacity": 12,
+    "kv_heads": 2,
+    "logical_bytes": 41472,
+    "tokens": 9
+  },
+  {
+    "allocated_bytes": 55296,
+    "capacity": 12,
+    "kv_heads": 2,
+    "logical_bytes": 46080,
+    "tokens": 10
+  },
+  {
+    "allocated_bytes": 55296,
+    "capacity": 12,
+    "kv_heads": 2,
+    "logical_bytes": 50688,
+    "tokens": 11
+  },
+  {
+    "allocated_bytes": 55296,
+    "capacity": 12,
+    "kv_heads": 2,
+    "logical_bytes": 55296,
+    "tokens": 12
+  }
+]

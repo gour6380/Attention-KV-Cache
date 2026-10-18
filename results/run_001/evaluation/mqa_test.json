@@ -1,0 +1,19 @@
+{
+  "checkpoint_kind": "final",
+  "checkpoint_sha256": "9cdc2028264f67a7fef1414616ea47dbb016119cbfa4520a0e3c9996b174dce6",
+  "device": "mps",
+  "elapsed_seconds": 51.68357799999649,
+  "nll": 1.6211936714460464,
+  "padding_targets": 358,
+  "parameter_count": 12219264,
+  "perplexity": 5.059125647573569,
+  "perplexity_overflow": false,
+  "precision": "float32",
+  "predicted_tokens": 2358938,
+  "split": "test",
+  "split_origin": "derived from the official validation split",
+  "token_manifest_sha256": "993ead9059c284a7347258aa6cafc9fa195fe09c7b2761752e4fcb4cea888dc4",
+  "total_nll": 3824295.3569335938,
+  "variant": "mqa",
+  "windows": 2304
+}

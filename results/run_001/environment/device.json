@@ -1,0 +1,15 @@
+{
+  "bitwise_reproducibility_claim": false,
+  "device": "mps",
+  "fallback": false,
+  "memory": {
+    "measurement": "instantaneous snapshot, not an exact peak; unified-memory categories overlap",
+    "mps_driver_bytes": 393216,
+    "mps_tensor_bytes": 0,
+    "process_rss_bytes": 331743232,
+    "system_available_bytes": 6722748416,
+    "system_swap_used_bytes": 973012992
+  },
+  "precision": "float32",
+  "torch": "2.14.0"
+}

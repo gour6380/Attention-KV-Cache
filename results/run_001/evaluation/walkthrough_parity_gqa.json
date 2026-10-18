@@ -1,0 +1,26 @@
+{
+  "atol": 1e-05,
+  "batch_size": 1,
+  "cache_allocated_bytes": 55296,
+  "chunk_lengths": [
+    4,
+    4,
+    4
+  ],
+  "device": "mps:0",
+  "full_vs_chunk": {
+    "max_absolute_error": 1.71661376953125e-05
+  },
+  "full_vs_last_only": {
+    "max_absolute_error": 5.7220458984375e-06
+  },
+  "full_vs_token": {
+    "max_absolute_error": 1.71661376953125e-05
+  },
+  "kv_heads": 2,
+  "passed": true,
+  "prefill_tokens": 6,
+  "rtol": 0.0001,
+  "tokens": 12,
+  "variant": "gqa"
+}

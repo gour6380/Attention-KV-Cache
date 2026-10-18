@@ -1,0 +1,29 @@
+{
+  "benchmark_config": {
+    "batch_sizes": [
+      1,
+      4
+    ],
+    "decode_steps": 128,
+    "measured_trials": 20,
+    "prompt_lengths": [
+      128,
+      256,
+      512,
+      1024,
+      2048
+    ],
+    "warmup_trials": 5
+  },
+  "identity_sha256": "d9fe24cf65f0f51ec9415fddd7923141e18d2018450e3b62df75046cd26271b6",
+  "protocol": "Exactly decode_steps appended-token forwards; no EOS-dependent stopping",
+  "row_start_offsets": [
+    0,
+    2176,
+    4352,
+    6528
+  ],
+  "sha256": "1d7bf304169d0bb7598483fb09f1a2fda1968c0e8d79d5e2e75d7b5884739126",
+  "split": "test",
+  "token_manifest_sha256": "993ead9059c284a7347258aa6cafc9fa195fe09c7b2761752e4fcb4cea888dc4"
+}

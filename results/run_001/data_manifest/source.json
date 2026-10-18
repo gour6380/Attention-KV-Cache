@@ -1,0 +1,7 @@
+{
+  "dataset": "roneneldan/TinyStories",
+  "directory": "${PROJECT_ROOT}/data/sources/445d1a294aa27615e1d3088cf836a9bb187999a24215df64e0bd5876d2be1e42",
+  "manifest_sha256": "b8dc02b6a6ece2194bf82940614f63adb1b417059eec8172b5b735ae556c5f8b",
+  "requested_revision": "main",
+  "resolved_revision": "f54c09fd23315a6f9c86f9dc80f725de7d8f9c64"
+}

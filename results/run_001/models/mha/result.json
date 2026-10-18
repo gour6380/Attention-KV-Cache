@@ -1,0 +1,22 @@
+{
+  "best_validation_nll": 1.6104699159145246,
+  "device": "mps",
+  "epochs": 3,
+  "final_checkpoint": "models/mha/final.pt",
+  "final_sha256": "73b17ae13844a61d62f6418a7d75ac7fb772882a7e76c7d25b4b8691fcdaddd6",
+  "optimizer_updates": 20100,
+  "single_seed": 2027,
+  "status": "complete",
+  "tokens_seen": 164637696,
+  "validation_at_final": {
+    "elapsed_seconds": 57.8185676250032,
+    "nll": 1.6104699159145246,
+    "padding_targets": 758,
+    "perplexity": 5.005162680896246,
+    "perplexity_overflow": false,
+    "predicted_tokens": 2354442,
+    "total_nll": 3791758.009765625,
+    "windows": 2300
+  },
+  "variant": "mha"
+}

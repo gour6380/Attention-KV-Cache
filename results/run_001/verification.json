@@ -1,0 +1,51 @@
+{
+  "benchmark_checks": {
+    "measured_rows": 600,
+    "parity_receipts_passed": 30,
+    "raw_rows": 750,
+    "summary_statistics_checked": 600,
+    "warmup_rows": 150
+  },
+  "checked_at": "2026-09-29T10:07:18.397921+00:00",
+  "documentation_checks": {
+    "broken_markdown_links": 0,
+    "checked_at": "2026-09-29T10:13:00.855919+00:00",
+    "dependency_metadata": "pip check passed",
+    "existing_source_requirements_data_and_run_unchanged": true,
+    "git_eligible_files": 174,
+    "git_ignore_checks_passed": 21,
+    "git_ignore_method": "Isolated temporary Git metadata; no repository initialized or index changed in the project",
+    "high_confidence_secret_pattern_matches": 0,
+    "intentional_test_change": "tests/test_notebook.py now permits executed output while validating the notebook and checking for saved errors",
+    "markdown_links_verified": 101,
+    "model_runtime_tests_or_experiments_executed": false,
+    "notebook_schema_and_python_ast": "passed",
+    "original_notebook_preserved_byte_for_byte": true,
+    "original_notebook_saved_outputs": 92,
+    "preserved_original_files": 284,
+    "ruff_source_and_tests": "passed",
+    "static_notebook_test_receipt": "notebook-tests.xml",
+    "static_notebook_tests_passed": 3,
+    "unexpected_private_path_files": []
+  },
+  "final_checkpoint_hashes_verified": 3,
+  "notebook_code_cells": 52,
+  "notebook_executed_code_cells": 52,
+  "notebook_saved_errors": 0,
+  "notebook_sha256": "c633230279508271d180e7b80f53d2b737fed5ef26a352ad92d437fe8a50cc5b",
+  "prior_project_test_run": {
+    "date": "2026-09-28",
+    "passed": 120,
+    "rerun_during_documentation": false,
+    "skip_reason": "CUDA unavailable on this Mac",
+    "skipped": 4
+  },
+  "publication": "Local preparation only; no remote repository or upload performed",
+  "report_artifacts_verified": 125,
+  "reproduction_limits": [
+    "Native macOS arm64 Python 3.13.11 / MPS validated locally; no fresh-clone environment installed during documentation preparation.",
+    "One training seed; MPS bitwise replay not claimed."
+  ],
+  "scope": "Saved-artifact integrity and statistical recomputation only; no model, training, evaluation, or benchmark execution",
+  "source_and_snapshot_files_verified": 20
+}

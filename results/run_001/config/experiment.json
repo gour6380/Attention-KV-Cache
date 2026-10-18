@@ -1,0 +1,57 @@
+{
+  "atol": 1e-05,
+  "benchmark": {
+    "batch_sizes": [
+      1,
+      4
+    ],
+    "decode_steps": 128,
+    "measured_trials": 20,
+    "prompt_lengths": [
+      128,
+      256,
+      512,
+      1024,
+      2048
+    ],
+    "warmup_trials": 5
+  },
+  "data": {
+    "context_length": 1024,
+    "dataset": "roneneldan/TinyStories",
+    "revision": "main",
+    "split_seed": 2027,
+    "train_stories": 250000,
+    "vocab_size": 8192
+  },
+  "model": {
+    "d_model": 384,
+    "ffn_dim": 1024,
+    "max_seq_len": 4096,
+    "norm_eps": 1e-05,
+    "num_kv_heads": 8,
+    "num_layers": 6,
+    "num_query_heads": 8,
+    "rope_base": 10000.0,
+    "seed": 2027,
+    "vocab_size": 8192
+  },
+  "rtol": 0.0001,
+  "train": {
+    "accumulation_steps": 2,
+    "betas": [
+      0.9,
+      0.95
+    ],
+    "checkpoint_interval": 250,
+    "epochs": 3,
+    "gradient_clip": 1.0,
+    "learning_rate": 0.0003,
+    "log_interval": 10,
+    "microbatch_size": 4,
+    "min_learning_rate": 3e-05,
+    "seed": 2027,
+    "warmup_fraction": 0.05,
+    "weight_decay": 0.1
+  }
+}

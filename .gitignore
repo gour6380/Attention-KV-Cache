@@ -1,0 +1,52 @@
+# Local Python environments, build products, and caches
+.venv*/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Original experiments and corpus caches stay local.
+# Keep the curated results/run_001/ evidence eligible for version control.
+/data/
+/runs/
+/reviews/
+
+# Large learned artifacts and TensorBoard events, wherever created
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+events.out.tfevents.*
+*.log
+
+# Notebook checkpoints only: keep the executed notebook and its outputs.
+.ipynb_checkpoints/
+
+# Local credentials and editor/OS files
+.aws/
+.ssh/
+.netrc
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+._*
+.idea/
+.vscode/
+*.swp
+*.swo
+*~

@@ -1,0 +1,23 @@
+Decoder(
+  (embedding): Embedding(8192, 384)
+  (layers): ModuleList(
+    (0-5): 6 x DecoderBlock(
+      (attention_norm): RMSNorm()
+      (attention): GroupedSelfAttention(
+        (q_proj): Linear(in_features=384, out_features=384, bias=False)
+        (k_proj): Linear(in_features=384, out_features=48, bias=False)
+        (v_proj): Linear(in_features=384, out_features=48, bias=False)
+        (o_proj): Linear(in_features=384, out_features=384, bias=False)
+        (rotary): RotaryEmbedding()
+      )
+      (ffn_norm): RMSNorm()
+      (mlp): SwiGLU(
+        (gate_proj): Linear(in_features=384, out_features=1024, bias=False)
+        (up_proj): Linear(in_features=384, out_features=1024, bias=False)
+        (down_proj): Linear(in_features=1024, out_features=384, bias=False)
+      )
+    )
+  )
+  (final_norm): RMSNorm()
+  (lm_head): Linear(in_features=384, out_features=8192, bias=False)
+)

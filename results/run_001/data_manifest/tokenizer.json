@@ -1,0 +1,29 @@
+{
+  "manifest": {
+    "bos_id": 1,
+    "eos_id": 2,
+    "files": {
+      "tokenizer.json": "1c704470c384d45ef7de1649eb1c5b9af464693bc5b8a0cc229db9c03969af2e"
+    },
+    "fit_split": "train",
+    "identity": {
+      "initial_alphabet": "all 256 bytes",
+      "literal_special_markers": "encode as ordinary text; add boundaries explicitly by ID",
+      "min_frequency": 2,
+      "protocol": "byte-bpe-no-prefix-preserve-case-full-alphabet-v1",
+      "special_tokens": [
+        "<|pad|>",
+        "<|bos|>",
+        "<|eos|>"
+      ],
+      "tokenizers_version": "0.23.2",
+      "training_jsonl_sha256": "7c5c9a624c4f4dd47ab3fec12a9b3a93daf19bdf8221c134d0595d926f1ec785",
+      "training_stories": 250000,
+      "vocab_size": 8192
+    },
+    "normalization": "No additional normalization; input is already NFC normalized.",
+    "pad_id": 0,
+    "vocab_size": 8192
+  },
+  "tokenizer_sha256": "1c704470c384d45ef7de1649eb1c5b9af464693bc5b8a0cc229db9c03969af2e"
+}

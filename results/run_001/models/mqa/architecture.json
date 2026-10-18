@@ -1,0 +1,236 @@
+{
+  "attention_backend": "compact_grouped_bmm",
+  "config": {
+    "d_model": 384,
+    "ffn_dim": 1024,
+    "max_seq_len": 4096,
+    "norm_eps": 1e-05,
+    "num_kv_heads": 1,
+    "num_layers": 6,
+    "num_query_heads": 8,
+    "rope_base": 10000.0,
+    "seed": 2027,
+    "vocab_size": 8192
+  },
+  "dropout": 0.0,
+  "initialization": "SHA256(seed:parameter_name); normal std=0.02; residual projections scaled by sqrt(2*layers); RMSNorm=1",
+  "kv_bytes_per_token_per_sequence_fp32": 2304,
+  "parameter_count": 12219264,
+  "parameter_shapes": {
+    "embedding.weight": [
+      8192,
+      384
+    ],
+    "final_norm.weight": [
+      384
+    ],
+    "layers.0.attention.k_proj.weight": [
+      48,
+      384
+    ],
+    "layers.0.attention.o_proj.weight": [
+      384,
+      384
+    ],
+    "layers.0.attention.q_proj.weight": [
+      384,
+      384
+    ],
+    "layers.0.attention.v_proj.weight": [
+      48,
+      384
+    ],
+    "layers.0.attention_norm.weight": [
+      384
+    ],
+    "layers.0.ffn_norm.weight": [
+      384
+    ],
+    "layers.0.mlp.down_proj.weight": [
+      384,
+      1024
+    ],
+    "layers.0.mlp.gate_proj.weight": [
+      1024,
+      384
+    ],
+    "layers.0.mlp.up_proj.weight": [
+      1024,
+      384
+    ],
+    "layers.1.attention.k_proj.weight": [
+      48,
+      384
+    ],
+    "layers.1.attention.o_proj.weight": [
+      384,
+      384
+    ],
+    "layers.1.attention.q_proj.weight": [
+      384,
+      384
+    ],
+    "layers.1.attention.v_proj.weight": [
+      48,
+      384
+    ],
+    "layers.1.attention_norm.weight": [
+      384
+    ],
+    "layers.1.ffn_norm.weight": [
+      384
+    ],
+    "layers.1.mlp.down_proj.weight": [
+      384,
+      1024
+    ],
+    "layers.1.mlp.gate_proj.weight": [
+      1024,
+      384
+    ],
+    "layers.1.mlp.up_proj.weight": [
+      1024,
+      384
+    ],
+    "layers.2.attention.k_proj.weight": [
+      48,
+      384
+    ],
+    "layers.2.attention.o_proj.weight": [
+      384,
+      384
+    ],
+    "layers.2.attention.q_proj.weight": [
+      384,
+      384
+    ],
+    "layers.2.attention.v_proj.weight": [
+      48,
+      384
+    ],
+    "layers.2.attention_norm.weight": [
+      384
+    ],
+    "layers.2.ffn_norm.weight": [
+      384
+    ],
+    "layers.2.mlp.down_proj.weight": [
+      384,
+      1024
+    ],
+    "layers.2.mlp.gate_proj.weight": [
+      1024,
+      384
+    ],
+    "layers.2.mlp.up_proj.weight": [
+      1024,
+      384
+    ],
+    "layers.3.attention.k_proj.weight": [
+      48,
+      384
+    ],
+    "layers.3.attention.o_proj.weight": [
+      384,
+      384
+    ],
+    "layers.3.attention.q_proj.weight": [
+      384,
+      384
+    ],
+    "layers.3.attention.v_proj.weight": [
+      48,
+      384
+    ],
+    "layers.3.attention_norm.weight": [
+      384
+    ],
+    "layers.3.ffn_norm.weight": [
+      384
+    ],
+    "layers.3.mlp.down_proj.weight": [
+      384,
+      1024
+    ],
+    "layers.3.mlp.gate_proj.weight": [
+      1024,
+      384
+    ],
+    "layers.3.mlp.up_proj.weight": [
+      1024,
+      384
+    ],
+    "layers.4.attention.k_proj.weight": [
+      48,
+      384
+    ],
+    "layers.4.attention.o_proj.weight": [
+      384,
+      384
+    ],
+    "layers.4.attention.q_proj.weight": [
+      384,
+      384
+    ],
+    "layers.4.attention.v_proj.weight": [
+      48,
+      384
+    ],
+    "layers.4.attention_norm.weight": [
+      384
+    ],
+    "layers.4.ffn_norm.weight": [
+      384
+    ],
+    "layers.4.mlp.down_proj.weight": [
+      384,
+      1024
+    ],
+    "layers.4.mlp.gate_proj.weight": [
+      1024,
+      384
+    ],
+    "layers.4.mlp.up_proj.weight": [
+      1024,
+      384
+    ],
+    "layers.5.attention.k_proj.weight": [
+      48,
+      384
+    ],
+    "layers.5.attention.o_proj.weight": [
+      384,
+      384
+    ],
+    "layers.5.attention.q_proj.weight": [
+      384,
+      384
+    ],
+    "layers.5.attention.v_proj.weight": [
+      48,
+      384
+    ],
+    "layers.5.attention_norm.weight": [
+      384
+    ],
+    "layers.5.ffn_norm.weight": [
+      384
+    ],
+    "layers.5.mlp.down_proj.weight": [
+      384,
+      1024
+    ],
+    "layers.5.mlp.gate_proj.weight": [
+      1024,
+      384
+    ],
+    "layers.5.mlp.up_proj.weight": [
+      1024,
+      384
+    ]
+  },
+  "tied_embedding_and_output": true,
+  "trainable_parameter_count": 12219264,
+  "variant": "mqa",
+  "weight_bytes_fp32": 48877056
+}

@@ -1,0 +1,22 @@
+{
+  "best_validation_nll": 1.6104323479217024,
+  "device": "mps",
+  "epochs": 3,
+  "final_checkpoint": "models/gqa/final.pt",
+  "final_sha256": "1266c5fe770d878ce6955fc878521b2d9b27e647017112e68c667bf2b8cc4493",
+  "optimizer_updates": 20100,
+  "single_seed": 2027,
+  "status": "complete",
+  "tokens_seen": 164637696,
+  "validation_at_final": {
+    "elapsed_seconds": 53.685301792000246,
+    "nll": 1.6104323479217024,
+    "padding_targets": 758,
+    "perplexity": 5.004974650512561,
+    "perplexity_overflow": false,
+    "predicted_tokens": 2354442,
+    "total_nll": 3791669.5581054688,
+    "windows": 2300
+  },
+  "variant": "gqa"
+}
